@@ -19,8 +19,8 @@ export default function NavigationLinks({ place }: { place: "header" | "footer" 
 
     return (
         <ul className={`nav ${currentStyleOptions.containerClass}`}>
-            <li><a href="#" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>Home</a></li>
-            <li><a href="#" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>Features</a></li>
+            <li><a href="/" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>Home</a></li>
+            <li><a href="/features" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>Features</a></li>
             <li><a href="#" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>Pricing</a></li>
             <li><a href="#" className={`nav-link px-2 ${currentStyleOptions.linkClass}`}>FAQs</a></li>
         </ul>
